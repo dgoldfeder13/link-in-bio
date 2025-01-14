@@ -4,12 +4,31 @@
   *{
     border: 1px lavender solid;
   }
+  
+  body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .avatar-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+  }
+
+  .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+  }
 </style>
 
 <body>
   <div class="main-container">
     <div class="image-row">
-      <img src="/Linkedin Profile pic.jpg">
+      <img class="avatar-image" src="/Linkedin Profile pic.jpg" alt="Daniel Goldfeder Headshot">
     </div>
   
     <div class="name-row">
@@ -32,7 +51,7 @@
 
     <div class="links-row">
       <div class="item">
-        <img src="/IG logo.jpg">
+        <img clas="thumbnail" src="/IG logo.jpg">
 
         <a target="_blank" href="https://tenor.com/search/you-got-pranked-gifs>">
           Definitely my Instagram
