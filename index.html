@@ -1,45 +1,81 @@
-<meta charset="UTF-8">
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
 
-<style>
-  *{
-    border: 1px lavender solid;
-  }
-  
-  html {
-    min-height: 100%;
-  }
-  body {
-    min-height: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background: linear-gradient(180deg, pink,lavender,purple,indigo,navy);
-    color: white;
-  }
 
-  a {
-    color: white;
-  }
+<head>
 
-  .item {
-    background-color:blueviolet, 0.5;
-  } 
-  
-  .avatar-image {
-    width: 128px;
-    height: 128px;
-    object-fit: cover;
-    border-radius: 128px;
-  }
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
 
-  .thumbnail {
-    width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    object-fit: cover;
-  }
+  <style>
+    *{
+      border: 1px lavender solid;
+    }
     
-</style>
+    html {
+      min-height: 100%;
+    }
+    body {
+      min-height: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, salmon,lavender,purple,indigo,navy);
+      color: white;
 
+    }
+
+    a {
+      color: white;
+    }
+
+    .item {
+      background-color:blueviolet, 0.5;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    } 
+    
+    .avatar-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+      
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .social-links {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+  </style>
+</head>
 <body>
   <div class="main-container">
     <div class="image-row">
@@ -66,9 +102,9 @@
 
     <div class="links-row">
       <div class="item">
-        <img clas="thumbnail" src="/IG logo.jpg">
+        <img class="thumbnail" src="/IG logo.jpg">
 
-        <a target="_blank" href="https://tenor.com/search/you-got-pranked-gifs>">
+        <a class="link-text" target="_blank" href="https://tenor.com/search/you-got-pranked-gifs>">
           Definitely my Instagram
         </a>
 
@@ -76,3 +112,4 @@
     </div>
   </div>
 </body>
+</html>
